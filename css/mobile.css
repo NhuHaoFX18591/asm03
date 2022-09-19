@@ -1,0 +1,90 @@
+@media (max-width: 768px) {
+  section > .container {
+    width: 100%;
+  }
+
+  .section-title,
+  .info-box h1 {
+    font-size: 1.5rem;
+    font-weight: 450;
+  }
+
+  /* Navbar */
+
+  #nav-bar .container {
+    flex-direction: column;
+    margin: 10px 0 10px 32px;
+  }
+
+  #nav-bar .container a:link,
+  #nav-bar .container a:visited {
+    padding: 5px;
+    border-left: none;
+  }
+
+  #nav-bar .container a:last-child {
+    border-right: none;
+  }
+  /* Mục tiêu nghề nghiệp; Thông tin cá nhân */
+
+  #target .section-title,
+  #personal-info .section-title {
+    padding-top: 12px;
+  }
+
+  .social-link {
+    margin-bottom: 10px;
+  }
+
+  /* Thông tin: Kinh nghiệm, kỹ năng, ngôn ngữ,... */
+  #job-info .container {
+    display: block;
+    /* width: 50%; */
+  }
+
+  .info-headline {
+    padding: 10px 0;
+  }
+  /* Chứng chỉ, giải thưởng */
+
+  .certificate-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .certificate--jav img {
+    border-left: none;
+    padding-left: 0;
+  }
+
+  /* Dự án */
+  .project-layout {
+    flex-direction: column;
+  }
+
+  .project-middle-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 15px;
+    gap: 0;
+    margin: 0;
+  }
+
+  /* footer */
+  #footer {
+    font-size: 0.7rem;
+  }
+
+  #footer .container ul {
+    padding: 0;
+  }
+
+  .icon-facebook-circled:before,
+  .icon-linkedin-circled:before,
+  .icon-github-circled:before {
+    color: #339af0;
+    font-size: 70%;
+  }
+}

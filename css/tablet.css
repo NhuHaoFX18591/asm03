@@ -1,0 +1,75 @@
+@media (max-width: 992px) {
+  body,
+  .bg-grey {
+    width: 100%;
+  }
+
+  section > .container {
+    width: 100%;
+  }
+
+  #nav-bar .container {
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  #nav-bar .container .nav-text {
+    display: none;
+  }
+  /* Mục tiêu nghề nghiệp, thông tin cá nhân */
+  #target .section-title,
+  #personal-info .section-title {
+    padding-top: 32px;
+  }
+
+  /* Thông tin: Kinh nghiệm-kỹ năng-học vấn-... */
+  #job-info .container {
+    align-items: flex-start;
+    font-size: smaller;
+  }
+
+  .info-hobby {
+    padding: 18px;
+  }
+
+  /* Chứng chỉ, giải thưởng */
+  .certificate-img {
+    width: 300px;
+    height: auto;
+    grid-column: 1/2;
+
+    margin: 10px 10px 10px 0;
+  }
+
+  .certificate-box {
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+  }
+
+  /* Dự án */
+  .project-layout {
+    display: flex;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 18px;
+  }
+
+  .project-img {
+    width: 100%;
+  }
+
+  .project-personal-title {
+    font-size: smaller;
+  }
+
+  .project-middle-bar {
+    font-size: 0.7rem;
+    gap: 12px;
+  }
+
+  .project-middle-bar tr td {
+    font-size: 0.5rem;
+  }
+}
